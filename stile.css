@@ -1,0 +1,228 @@
+:root{
+    --cor1: #509BF6;
+    --cor2: #1ED760;
+    --cor3: #2A2A2A;
+    --cor4: #121212;
+}
+
+@font-face {
+    font-family: 'Spotify-font';
+    src: url(fonte/CircularStd-Medium.woff) format('woff');
+}
+
+body{
+    background-color: var(--cor4);
+    margin: 0px;
+    padding: 10px;
+
+}
+
+#usuario{
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+#usuario a{
+    display: block;
+    color: var(--cor3);
+    background-color: var(--cor1);
+    border-radius: 50%;
+    text-decoration: none;
+    font-family: 'Spotify-font';
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+section{
+    display: flex;
+    padding-top: 40px;
+}
+
+#selecionada{
+    background-color: var(--cor2);
+    margin-left: 50px;
+}
+
+.categoria{
+    background-color: var(--cor3);
+    border-radius: 50px;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Spotify-font';
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.categoria a{
+    text-decoration: none;
+}
+
+#tudo{
+    color: var(--cor3);
+}
+
+#musica{
+    color: #fff;
+}
+
+#podcasts{
+    color: #fff;
+}
+
+.opcoes{
+    display: grid;
+    grid-template-columns: 1fr 1000px;
+    gap: 10px;
+    
+}
+
+.musica{
+    background-color: var(--cor3);
+    height: 75px;
+    width: 235px;
+    border-radius: 7px;
+    display: flex;
+}
+
+.musica img{
+    position: relative;
+}
+
+.position{
+    position: absolute;
+}
+
+#IMG{
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    width: 75px;
+    height: 75px;
+}
+
+.text{
+    margin-left: 90px;
+    line-height: 40px;
+    font-family: 'Spotify-font';
+    color: #fff;
+    font-size: 18px;
+}
+
+.musica p{
+    justify-content: end;
+}
+
+h1{
+    font-family: "Spotify-font";
+    color: #fff;
+    font-size: 35px;
+    text-align: start;
+    margin-top: 5px;
+}
+
+.carrosel{
+    display: flex;
+    gap: 10px;
+    margin-top: -25px;
+}
+
+#slide{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+#slide::-webkit-scrollbar {
+    overflow: hidden ;
+}
+
+.img{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.controles{
+    background-color: #6b2034;
+    height: 75px;
+    width: 475px;
+    border-radius: 7px;
+    display: flex;
+    border-bottom: 3px solid #d9bac2;
+}
+
+.controles img{
+    position: relative;
+    border-radius: 8px;
+}
+
+#onze{
+    width: 55px;
+    height: 55px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.texto{
+    margin-left: 80px;
+    line-height: 20px;
+    font-family: 'Spotify-font';
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: -15px;
+}
+
+#V{
+    color: #d9bac2;
+}
+.icones{
+    display: flex;
+    margin-left: 190px;
+}
+
+.icons{
+    color: #fff;
+    margin-left: 10px;
+}
+
+.icones .icons span{
+    flex: 1;
+    line-height: 70px;
+    font-size: 30px;
+}
+
+.barra{
+    display: flex;
+    padding: 20px;
+}
+
+.barra a{
+    height: 60px;
+    width: 5px;
+    flex: 1;
+    direction: inline;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+.barra a p{
+    font-family: "Spotify-font";
+    font-size: 12px;
+    text-align: start;
+}
+
+#library{
+    margin-left: -25px;
+}
+
+#search{
+    margin-left: -5px;
+}
